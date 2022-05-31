@@ -202,6 +202,7 @@ function gameFinished() {
            location.reload(); 
         } else { 
             clearInterval(interval);
+            window.location.assign('https://www.youtube.com/watch?v=1q6Swwvp5qk');
         }
     }
 }
